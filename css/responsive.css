@@ -1,0 +1,135 @@
+
+@media (min-width: 320px) and ( max-width: 575.98px){ 
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+    .navbar-nav {
+       text-align: right;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .manu_bg ul li a::after{
+        display: none;
+    }
+    .manu_bg ul li a::before {
+        content: '';
+        height: 2px;
+        width: 0%;
+        background-color: #e23e38;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transition: 0.5s;
+    }
+    .manu_bg ul li a:hover::before{
+        width: 100%;
+        opacity: 1;
+    }
+    .banner_img .hlw h2{
+        padding-top: 50px;
+    }
+    .video_a{
+        order: 2;
+    }
+    .video_c{
+        order: 1;
+    }
+    #gellery .img_gap{
+        padding-bottom: 10px;
+    }
+    .gel_img_overlay i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .membership_a{
+        padding-bottom: 30px;
+    }
+    .membership_m{
+        padding-bottom: 5px;
+    }
+    .team_gap{
+        padding-bottom: 50px;
+    }
+    .partners_aa .prev{
+        display: none !important;
+    }
+    .partners_aa .next{
+        display: none !important;
+    }
+    #partners{
+        display: none;
+    }
+ }
+
+
+
+
+
+ @media (min-width: 576px) and ( max-width: 767.98px){ 
+    .navbar-toggler{
+        color: white;
+    }
+   
+    .video_a{
+        order: 2;
+    }
+    .video_c{
+        order: 1;
+    }
+    #gellery .img_gap{
+        padding-bottom: 10px;
+    }
+    .gel_img_overlay i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .team_gap{
+        padding-bottom: 50px;
+    }
+    .membership_a{
+        padding-bottom: 30px;
+    }
+    .membership_m{
+        padding-bottom: 5px;
+    }
+
+  }
+
+
+
+
+
+
+  @media (min-width: 768px) and ( max-width: 991.98px){ 
+
+
+    .navbar-nav {
+        text-align: center;
+         padding-top: 10px;
+        
+     }
+    .navbar-toggler{
+        color: white;
+    }
+    .video_c{
+        padding-top: 10px;
+    }
+    #gellery .img_gap{
+        padding-bottom: 10px;
+    }
+    .gel_img_overlay i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+   
+   
+   }
